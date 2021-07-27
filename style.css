@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.lead-copy p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  margin-bottom: 4em;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container.review-section {
+  margin-bottom: 0;
+}
+
+.main {
+  padding: 4em 0;
+  width: 100%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+.review-card {
+  flex: 0 0 32%;
+  background: hsl(300, 43%, 22%);
+  color: #fff;
+  padding: 3em 2em;
+  border-radius: 10px;
+}
+
+.lead-copy {
+  padding-right: 8em;
+}
+
+.lead-copy h3 {
+  font-size: 3.5em;
+  margin-bottom: .3em;
+  line-height: 1;
+  color: hsl(300, 43%, 22%);
+}
+
+/* .lead-copy p {
+  font-size: 1.1em;
+} */
+.rating-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-section>div {
+  color: hsl(300, 43%, 22%);
+  width: 80%;
+  font-weight: 700;
+  padding: 1.2em 2.2em;
+  background: hsl(300, 24%, 96%);
+  margin-bottom: 1.3em;
+  border-radius: 10px;
+}
+
+.rating-section>div:nth-child(2) {
+  align-self: center;
+}
+
+.rating-section>div:nth-child(3) {
+  align-self: flex-end;
+}
+
+.review-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.review-author img {
+  border-radius: 50%;
+  margin-right: 2em;
+  height: 3.5em;
+}
+
+/* .review-card:nth-child(1) {
+  align-self: baseline;
+} */
+.review-card:nth-child(2) {
+  margin-top: 2em;
+}
+
+.review-card:nth-child(3) {
+  margin-top: 4em;
+}
+
+.testimonial-text {
+  font-size: .97em;
+}
+
+img.bg-desktop-tl {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+img.bg-desktop-tb {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.review-author-info p {
+  color: hsl(333, 80%, 67%);
+}
