@@ -185,3 +185,9 @@ img.bg-desktop-tb {
     background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .review-card {
+    width: 100%;
+  }
+}
